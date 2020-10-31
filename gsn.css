@@ -1,0 +1,75 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.fed {
+	color: white;
+}
+.wr {
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 30px;
+}
+button {
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	border-radius: 10px;
+	margin-top: 50px;
+	margin-right: 50px;
+	background: transparent;
+	color: white;
+}
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.rjh {
+	margin: 0 auto;
+	width: 350px;	
+	border: solid white;
+	height: 450px;
+	overflow: hidden;
+	text-align: center;
+}
+.start-game {
+	width: 400px;
+	height: 450px;
+	overflow: hidden;
+	transition: 0.5s
+}
+.df {
+	width: 300px;
+	height: 250px;
+	margin: 0 auto;
+	padding-top: 100px;	
+}
+.q {
+	width: 200px;
+	height: 50px;
+}
+.df div {
+	border: white 1px solid;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	font-size: 50px;
+	text-align: center;
+	margin: 5px;
+	vertical-align: top;
+}
